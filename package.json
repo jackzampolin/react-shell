@@ -1,4 +1,4 @@
-{
+ {
   "name": "three-hearts-farm",
   "version": "0.0.5",
   "description": "Storefront for Organic Farm",
@@ -31,7 +31,6 @@
     "gulp-watch": "^4.2.4",
     "gulp-webdriver": "^0.1.1",
     "merge-stream": "^0.1.8",
-    "reactify": "^1.1.0",
     "require-dir": "^0.3.0",
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0",

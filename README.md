@@ -1,6 +1,6 @@
 #Three Hearts Farm
 
-This is the start of a project to build a website for an organic farm.  The site has a couple of static splash pages, a blog, and a store to help reduce ordering problems for the client.  It will also have admin pannels for managing the store and the blog.  The project is built with [Node.js](https://nodejs.org/), [React](http://facebook.github.io/react/), [React Router](http://rackt.github.io/react-router/), [Gulp](http://gulpjs.com/), [WebdriverIO](http://webdriver.io/)(for testing), [Material-UI](http://material-ui.com/#/), [Reflux](https://github.com/reflux/refluxjs), and  [Firebase](https://www.firebase.com/).  Thanks to [echenley](https://github.com/echenley/react-news) with his great react-news repo which was a huge help.  
+This is a blank project starter with the following technologies linked up: [Node.js](https://nodejs.org/), [React](http://facebook.github.io/react/), [React Router](http://rackt.github.io/react-router/), [Gulp](http://gulpjs.com/), [WebdriverIO](http://webdriver.io/)(for testing), [Material-UI](http://material-ui.com/#/), [Reflux](https://github.com/reflux/refluxjs), and  [Firebase](https://www.firebase.com/), [Docker](https://www.docker.com/).
 
 To run just:
 ```bash
@@ -95,10 +95,10 @@ Note: Routing tree for application is in routes.jsx with all associated react-ro
 ####Dockerfile
 To create docker image on your local environment just run:
 ```bash
-docker build -t jackzampolin/three-hearts-farm:latest https://github.com/jackzampolin/three-hearts-farm.git
+docker build -t jackzampolin/react-shell:latest https://github.com/jackzampolin/three-hearts-farm.git
 ```
 
 To run the image in a container with properly forwarded ports just run:
 ```bash
-docker run -d -p 8000:8000 --name three-hearts-farm jackzampolin/three-hearts-farm:latest
+docker run -d -p 8000:8000 --name react-shell jackzampolin/react-shell:latest
 ```

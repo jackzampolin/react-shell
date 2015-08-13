@@ -1,12 +1,12 @@
 var environment = {
   'development': {
-    firebaseUrl: 'https://brewdoctor-react.firebaseio.com/',
+    firebaseUrl: 'https://{your_app}.firebaseio.com/',
     imagePath: './assets/images/',
     testUrl: 'http://localhost:9000',
     localUrl: 'http://localhost:8000',
   },
   'production': {
-    firebaseUrl: 'https://brewdoctor-react.firebaseio.com/',
+    firebaseUrl: 'https://{your_app}.firebaseio.com/',
     imagePath: './assets/images/',
     siteUrl: 'http://localhost:8000',
   }
