@@ -95,7 +95,7 @@ Note: Routing tree for application is in routes.jsx with all associated react-ro
 ####Dockerfile
 To create docker image on your local environment just run:
 ```bash
-docker build -t jackzampolin/react-shell:latest https://github.com/jackzampolin/three-hearts-farm.git
+docker build -t jackzampolin/react-shell:latest https://github.com/jackzampolin/react-shell.git
 ```
 
 To run the image in a container with properly forwarded ports just run:
